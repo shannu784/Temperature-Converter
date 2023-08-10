@@ -1,0 +1,125 @@
+body{
+    background-image: url('nature-3082832_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.container{
+position: absolute;
+top: 40%;
+left: 50%;
+transform:translate(-50%,-50%);
+width: 380px;
+height: 200px;
+background: transparent;    
+
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: snowwhite;
+text-align: center;
+
+}
+
+.wrapper{
+position: relative;
+top: 60%;
+left: 50%;
+width: 440px;
+height: 350px;
+transform:translate(-50%,-50%);
+background: transparent;
+border: 2px solid rgba(255, 255, 255, 0.5);
+border-radius: 20px;
+backdrop-filter: blur(20px);
+display: flex;
+align-items: center;
+}
+
+.Temperature-icon{
+font-size: 45px;
+color: black;
+}
+
+.title{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap-reverse;
+gap: 5px;
+}
+
+.Temperature-icon{
+font-size: 45px;
+color: white;
+}
+
+h1{
+letter-spacing: 1.5px;
+align-items: center;
+}
+
+#celsius,#fahrenheit,#kelvin{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25px;
+font-size: 20px;
+border-radius: 0 8px 8px 0;
+}
+
+.input{
+flex: 5;
+height: 60px;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+border: none;
+outline: none;
+border-radius: 8px 0 0 8px;
+padding: 0 10px;
+}
+
+.button{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25px;
+}
+
+.icon{
+text-align: center;
+background: #f8f8f8;
+font-size: 15px;
+gap: 10px;
+border-radius: 0 8px 8px 0;
+padding: 0 5px;
+border-color: #000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+-webkit-appearance: none;
+}
+
+.button button{
+border: none;
+outline: none;
+padding: 10px 30px;
+font-size: 20px;
+font-weight: 600;
+border-radius: 3px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.button button:hover{
+background: #000;
+color: #fff;
+}
